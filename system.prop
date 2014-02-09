@@ -4,3 +4,9 @@
 
 rild.libargs=-d /dev/smd0
 ro.sf.lcd_density=240
+
+# ROM Statistics and ROM Identification
+ro.romstats.url=http://stats.pixelrom.tk
+ro.romstats.name=PixelROM
+ro.romstats.version=1.0
+ro.romstats.tframe=7

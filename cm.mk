@@ -14,10 +14,10 @@
 
 
 # Enhanced NFC
-$(call inherit-product, vendor/ose/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/ose/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/sony/c1905/c1905.mk)
@@ -27,7 +27,7 @@ TARGET_SCREEN_WIDTH := 480
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := c1905
-PRODUCT_NAME := ose_c1905
+PRODUCT_NAME := cm_c1905
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := C1905
 PRODUCT_MANUFACTURER := Sony
